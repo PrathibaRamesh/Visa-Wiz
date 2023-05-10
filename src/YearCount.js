@@ -9,7 +9,7 @@ export default class YearCount extends Component {
 
 
     initViz() {
-        const vizUrl = '';
+        const vizUrl = 'https://public.tableau.com/views/Elahescharts/Sheet1';
         const vizContainer = this.vizContainer;
         let viz = new window.tableau.Viz(vizContainer, vizUrl)
     }
