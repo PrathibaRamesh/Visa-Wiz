@@ -9,14 +9,14 @@ export default class Salary extends Component {
 
 
     initViz() {
-        const vizUrl = 'https://public.tableau.com/app/profile/anudeep.katukojwala/viz/H1BSalaryOfAcceptedApplicantsVsYear/Sheet3';
+        const vizUrl = 'https://public.tableau.com/views/H1BSalaryOfAcceptedApplicantsVsYear/Sheet3';
         const vizContainer = this.vizContainer;
         let viz = new window.tableau.Viz(vizContainer, vizUrl)
     }
     render() {
         return (
             <div>
-                <Navbar bg="dark" variant="dark" expand="lg" style={{ width: "100%", paddingLeft: "35%", paddingRight: "30%" }}>
+                <Navbar expand="lg" style={{ width: "100%", paddingLeft: "1%", paddingRight: "50%", backgroundColor:'#42276a' }}>
                     <Container>
                         <Navbar.Brand href="/">Visa-Wiz</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
