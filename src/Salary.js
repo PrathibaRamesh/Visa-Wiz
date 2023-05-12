@@ -9,7 +9,7 @@ export default class Salary extends Component {
 
 
     initViz() {
-        const vizUrl = 'https://public.tableau.com/views/H1BSalaryOfAcceptedApplicantsVsYear/Sheet3';
+        const vizUrl = 'https://public.tableau.com/views/H1BSalaryOfAcceptedApplicantsVsYear/Sheet2';
         const vizContainer = this.vizContainer;
         let viz = new window.tableau.Viz(vizContainer, vizUrl)
     }
